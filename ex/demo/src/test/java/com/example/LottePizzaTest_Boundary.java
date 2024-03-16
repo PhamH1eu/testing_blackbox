@@ -54,4 +54,3 @@ public class LottePizzaTest_Boundary {
 
 
 
-

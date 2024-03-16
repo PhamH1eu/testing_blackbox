@@ -3,6 +3,8 @@ package com.example;
 public class LottePizza {
 
     public static int pizza(int x) {
+        if (x <= 0 || x > 10)
+            return -1;
         if (x <= 4) {
             return x * 50;
         } else if (x <= 7) {
@@ -25,5 +27,7 @@ public class LottePizza {
             return -1;
         return pizza(x) + coca(y);
     }
+
+    
 
 }
